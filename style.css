@@ -1,4 +1,51 @@
 /* Base Styles */
+/* Ensure html and body elements allow scrolling */
+html, body {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Reset any problematic overflow settings */
+body {
+    overflow-y: auto !important;
+}
+
+/* Fix for header section positioning */
+.header_section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+/* Add padding to body to account for fixed header */
+body {
+    padding-top: 80px; /* Adjust this to match your header height */
+}
+
+/* Ensure main content can flow normally */
+.container, .container-fluid {
+    position: static;
+    overflow: visible;
+}
+
+/* Remove any fixed heights that might constrain content */
+.banner_section, 
+.work_section, 
+.articles_section, 
+.features_section, 
+.directory_section, 
+.testimonial_section, 
+.contact_section {
+    height: auto;
+    min-height: 0;
+    overflow: visible;
+}
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
