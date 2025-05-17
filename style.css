@@ -15,7 +15,7 @@ body {
 
 /* Fix for header section positioning */
 .header_section {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -30,7 +30,7 @@ body {
 
 /* Ensure main content can flow normally */
 .container, .container-fluid {
-    position: static;
+    position: relative;
     overflow: visible;
 }
 
@@ -80,7 +80,7 @@ a:hover {
 .header_section {
     background-color: #fff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 1000;
 }
@@ -379,7 +379,7 @@ a:hover {
     top: 0;
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: relative;
 }
 
 /* Directory Section */
@@ -522,7 +522,7 @@ a:hover {
 }
 
 .quote_left, .quote_right {
-    position: absolute;
+    position: relative;
     opacity: 0.2;
 }
 
