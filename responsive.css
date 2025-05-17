@@ -1,0 +1,154 @@
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .discover_text {
+        font-size: 50px;
+    }
+    
+    .amazing_text {
+        font-size: 70px;
+    }
+    
+    .find_text {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header_main {
+        padding: 10px 0;
+    }
+    
+    .logo img {
+        max-height: 50px;
+    }
+    
+    .discover_text {
+        font-size: 42px;
+    }
+    
+    .amazing_text {
+        font-size: 60px;
+    }
+    
+    .find_text {
+        font-size: 20px;
+    }
+    
+    .banner_section {
+        padding-top: 150px;
+    }
+    
+    .client_main {
+        flex-direction: column;
+    }
+    
+    .client_left {
+        margin-bottom: 30px;
+    }
+    
+    .subscribe_main {
+        flex-direction: column;
+    }
+    
+    .subscribe_left, .subscribe_middle, .subscribe_right {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .Enter_text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 15px;
+    }
+    
+    .login_text, .call_text {
+        display: none;
+    }
+    
+    .discover_text {
+        font-size: 36px;
+    }
+    
+    .amazing_text {
+        font-size: 50px;
+    }
+    
+    .find_text {
+        font-size: 18px;
+    }
+    
+    .banner_section {
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+    
+    .work_text, .some_text, .features_text, .directory_text, .testimonial_taital {
+        font-size: 36px;
+    }
+    
+    .choose_main {
+        flex-direction: column;
+    }
+    
+    .choose_left {
+        margin-bottom: 15px;
+    }
+    
+    .feature_menu ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .feature_menu li {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .footer_section .row > div {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .discover_text {
+        font-size: 30px;
+    }
+    
+    .amazing_text {
+        font-size: 42px;
+    }
+    
+    .find_text {
+        font-size: 16px;
+    }
+    
+    .banner_section {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+    
+    .work_text, .some_text, .features_text, .directory_text, .testimonial_taital {
+        font-size: 30px;
+    }
+    
+    .box_1 {
+        margin: 0 10px 15px;
+    }
+    
+    .image_1 img, .image_5 img {
+        height: auto;
+    }
+    
+    .testimonial {
+        padding: 0;
+    }
+    
+    .quote_left, .quote_right {
+        display: none;
+    }
+}
